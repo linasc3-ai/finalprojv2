@@ -31,8 +31,10 @@ class EmotionViewModel: ObservableObject {
         return persistentContainer.viewContext
     }
     
+    
     // function to actually save the emotion
     func saveEmotion(emotion: Emotion) {
+        print(emotion)
         // create new emotion object based on the data passed from the emotionScreener view
         // create a new emotion with the viewContext that contains emotion data from core data 
            let emotionEntry = EmotionObj(context: viewContext)
@@ -41,10 +43,12 @@ class EmotionViewModel: ObservableObject {
            emotionEntry.severity = emotion.severity
            emotionEntry.reflection = emotion.reflection
 
+        print(emotionEntry)
         // save the data to the core data store, as well as append to emotions array
            do {
                try viewContext.save()
                emotions.append(emotion)
+               print(emotions)
            } catch let error as NSError {
                print("Could not save. \(error), \(error.userInfo)")
            }

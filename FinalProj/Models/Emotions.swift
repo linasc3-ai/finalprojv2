@@ -9,7 +9,7 @@ import Foundation
 
 
 struct Emotion: Codable {
-    let id: UUID = UUID()  // Unique identifier for each emotion
+    var id: UUID = UUID()  // Unique identifier for each emotion
     var name: String // the type of emotion, e.g. happiness
     var emoji: String // emoji representing the image for the emotion 
     var severity: Double // severity of emotion
