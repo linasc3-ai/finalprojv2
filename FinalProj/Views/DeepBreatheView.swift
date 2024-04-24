@@ -14,7 +14,7 @@ struct CooldownView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
-        NavigationStack{
+        NavigationView{
             VStack {
                 Text("Time for a cool down...")
                 Spacer()

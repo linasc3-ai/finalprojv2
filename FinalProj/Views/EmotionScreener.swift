@@ -74,20 +74,7 @@ struct EmotionScreener: View {
                         .disableAutocorrection(true).frame(height: 50).padding(.vertical, 10)
                     // expand length of review box
                 }
-                
-                
-                // also need to store the emotion object in core data here
-                // once completed with emotion reflection, move to cooldown view
-//                NavigationLink(destination: CooldownView()) {
-//                    Text("Continue").onTapGesture {
-//                        // save the current emotion as the currently selected emotion object
-//                        let currentEmotion = emotions[selectedEmotionIndex]
-//                        print(currentEmotion)
-//                        // provide the currently selected emotion to the saveEmotion function in the view model, to save it to core data and view model's emotions array
-//                        viewmodelEmotions.saveEmotion(emotion: currentEmotion)
-//                    }
-//                }
-                
+                                
                 NavigationLink(destination: CooldownView(), isActive: $isActive) { EmptyView() }
                     Button("Continue") {
                         // save the current emotion as the currently selected emotion object
@@ -99,7 +86,7 @@ struct EmotionScreener: View {
                     }
             }
             
-            }.navigationTitle("Emotions")
+            }
         }
     }
 
