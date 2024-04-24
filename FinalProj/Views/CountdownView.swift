@@ -12,36 +12,51 @@ struct CountdownView: View {
     @State private var progress: CGFloat = 1.0
 
     var body: some View {
-        VStack {
-            Text("Keep moving and watch your progress!")
-                .font(.title2)
-                .fontWeight(.semibold)
-                .padding()
-
-            ZStack {
-                ProgressCircleView(progress: $progress)
+        NavigationView {
+            VStack {
+                Text("Keep moving and watch your progress!")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .padding()
                 
-                VStack {
-                    Text("\(viewModel.timeRemaining) seconds")
-                        .font(.title)
-                        .fontWeight(.semibold)
-                    Text("Steps: \(viewModel.steps)")
-                        .font(.headline)
-                        .padding(.top, 20)
+                ZStack {
+                    ProgressCircleView(progress: $progress)
+                    
+                    VStack {
+                        Text("\(viewModel.timeRemaining) seconds")
+                            .font(.title)
+                            .fontWeight(.semibold)
+                        Text("Steps: \(viewModel.steps)")
+                            .font(.headline)
+                            .padding(.top, 20)
+                    }
                 }
+                .frame(width: 250, height: 250)
+                
+                // conditionally render a end workout button when
+                // the time remaining is equal to 0
+                if viewModel.timeRemaining == 0 {
+                        // when you click this button, we want to redirect to
+                        // the emotion screener
+                        NavigationLink(destination: EmotionScreener()) {
+                                            Text("End Workout")
+                        }
+                    .background(Color.blue)
+                    .padding(.top, 20)
+                    .foregroundColor(.white)
+                    .clipShape(Capsule())
+                }
+                
             }
-            .frame(width: 250, height: 250)
-
-            // Additional UI or functionality can be added here
-        }
-        .onReceive(viewModel.timerPublisher) { _ in
-            let totalDuration = Double(viewModel.duration) ?? 0
-            progress = CGFloat(viewModel.timeRemaining) / (totalDuration * 60.0)
-        }
-        .onAppear {
-            let totalDuration = Double(viewModel.duration) ?? 0
-            viewModel.timeRemaining = Int(totalDuration * 60.0)
-            progress = 1.0
+            .onReceive(viewModel.timerPublisher) { _ in
+                let totalDuration = Double(viewModel.duration) ?? 0
+                progress = CGFloat(viewModel.timeRemaining) / (totalDuration * 60.0)
+            }
+            .onAppear {
+                let totalDuration = Double(viewModel.duration) ?? 0
+                viewModel.timeRemaining = Int(totalDuration * 60.0)
+                progress = 1.0
+            }
         }
     }
 }

@@ -15,14 +15,14 @@
 		A280B0112BD554980013E0E7 /* FinalProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280B0102BD554980013E0E7 /* FinalProjUITests.swift */; };
 		A280B0132BD554980013E0E7 /* FinalProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280B0122BD554980013E0E7 /* FinalProjUITestsLaunchTests.swift */; };
 		A280B0252BD56BE30013E0E7 /* Emotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280B0242BD56BE30013E0E7 /* Emotions.swift */; };
-		A2942FB62BD99662006DDEA2 /* DeepBreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2942FB32BD99662006DDEA2 /* DeepBreatheView.swift */; };
-		A2942FB72BD99662006DDEA2 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2942FB42BD99662006DDEA2 /* ExerciseView.swift */; };
-		A2942FB92BD9967E006DDEA2 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2942FB82BD9967E006DDEA2 /* CountdownView.swift */; };
-		A2942FBB2BD996A8006DDEA2 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2942FBA2BD996A8006DDEA2 /* ExerciseViewModel.swift */; };
-		A2942FBD2BD996B6006DDEA2 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2942FBC2BD996B6006DDEA2 /* Exercise.swift */; };
-		A2B008822BD9A28500DE17D8 /* EmotionScreener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B008812BD9A28500DE17D8 /* EmotionScreener.swift */; };
+		A2B0088A2BD9C56600DE17D8 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B008892BD9C56600DE17D8 /* ExerciseViewModel.swift */; };
+		A2B0088C2BD9C57300DE17D8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0088B2BD9C57300DE17D8 /* Exercise.swift */; };
+		A2B008922BD9C69500DE17D8 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0088D2BD9C69500DE17D8 /* ExerciseView.swift */; };
+		A2B008932BD9C69500DE17D8 /* EmotionScreener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0088E2BD9C69500DE17D8 /* EmotionScreener.swift */; };
+		A2B008942BD9C69500DE17D8 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B0088F2BD9C69500DE17D8 /* CountdownView.swift */; };
+		A2B008952BD9C69500DE17D8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B008902BD9C69500DE17D8 /* Home.swift */; };
+		A2B008962BD9C69500DE17D8 /* DeepBreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B008912BD9C69500DE17D8 /* DeepBreatheView.swift */; };
 		A2EFE3732BD96BD7008D3D16 /* EmotionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE3722BD96BD7008D3D16 /* EmotionViewModel.swift */; };
-		A2EFE3782BD970E7008D3D16 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE3772BD970E7008D3D16 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +54,14 @@
 		A280B0102BD554980013E0E7 /* FinalProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjUITests.swift; sourceTree = "<group>"; };
 		A280B0122BD554980013E0E7 /* FinalProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A280B0242BD56BE30013E0E7 /* Emotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotions.swift; sourceTree = "<group>"; };
-		A2942FB32BD99662006DDEA2 /* DeepBreatheView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeepBreatheView.swift; path = ../../../../Downloads/FinalProj/FinalProj/Views/DeepBreatheView.swift; sourceTree = "<group>"; };
-		A2942FB42BD99662006DDEA2 /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseView.swift; path = ../../../../Downloads/FinalProj/FinalProj/Views/ExerciseView.swift; sourceTree = "<group>"; };
-		A2942FB82BD9967E006DDEA2 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountdownView.swift; path = ../../../../Downloads/FinalProj/FinalProj/Views/CountdownView.swift; sourceTree = "<group>"; };
-		A2942FBA2BD996A8006DDEA2 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewModel.swift; path = ../../../../Downloads/FinalProj/FinalProj/ViewModels/ExerciseViewModel.swift; sourceTree = "<group>"; };
-		A2942FBC2BD996B6006DDEA2 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = ../../../../Downloads/FinalProj/FinalProj/Models/Exercise.swift; sourceTree = "<group>"; };
-		A2B008812BD9A28500DE17D8 /* EmotionScreener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionScreener.swift; sourceTree = "<group>"; };
+		A2B008892BD9C56600DE17D8 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		A2B0088B2BD9C57300DE17D8 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		A2B0088D2BD9C69500DE17D8 /* ExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		A2B0088E2BD9C69500DE17D8 /* EmotionScreener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionScreener.swift; sourceTree = "<group>"; };
+		A2B0088F2BD9C69500DE17D8 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		A2B008902BD9C69500DE17D8 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A2B008912BD9C69500DE17D8 /* DeepBreatheView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepBreatheView.swift; sourceTree = "<group>"; };
 		A2EFE3722BD96BD7008D3D16 /* EmotionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionViewModel.swift; sourceTree = "<group>"; };
-		A2EFE3772BD970E7008D3D16 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A280B0242BD56BE30013E0E7 /* Emotions.swift */,
-				A2942FBC2BD996B6006DDEA2 /* Exercise.swift */,
+				A2B0088B2BD9C57300DE17D8 /* Exercise.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,8 +159,8 @@
 		A280B0202BD5654B0013E0E7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				A2942FBA2BD996A8006DDEA2 /* ExerciseViewModel.swift */,
 				A2EFE3722BD96BD7008D3D16 /* EmotionViewModel.swift */,
+				A2B008892BD9C56600DE17D8 /* ExerciseViewModel.swift */,
 				A24142BD2BD99C360090AA2D /* ModelEmotions.xcdatamodeld */,
 			);
 			path = ViewModels;
@@ -169,11 +169,11 @@
 		A280B0212BD565B20013E0E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A2942FB32BD99662006DDEA2 /* DeepBreatheView.swift */,
-				A2B008812BD9A28500DE17D8 /* EmotionScreener.swift */,
-				A2942FB82BD9967E006DDEA2 /* CountdownView.swift */,
-				A2942FB42BD99662006DDEA2 /* ExerciseView.swift */,
-				A2EFE3772BD970E7008D3D16 /* Home.swift */,
+				A2B0088F2BD9C69500DE17D8 /* CountdownView.swift */,
+				A2B008912BD9C69500DE17D8 /* DeepBreatheView.swift */,
+				A2B0088E2BD9C69500DE17D8 /* EmotionScreener.swift */,
+				A2B0088D2BD9C69500DE17D8 /* ExerciseView.swift */,
+				A2B008902BD9C69500DE17D8 /* Home.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,17 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B008942BD9C69500DE17D8 /* CountdownView.swift in Sources */,
 				A2EFE3732BD96BD7008D3D16 /* EmotionViewModel.swift in Sources */,
-				A2B008822BD9A28500DE17D8 /* EmotionScreener.swift in Sources */,
-				A2EFE3782BD970E7008D3D16 /* Home.swift in Sources */,
+				A2B008952BD9C69500DE17D8 /* Home.swift in Sources */,
+				A2B0088C2BD9C57300DE17D8 /* Exercise.swift in Sources */,
+				A2B008932BD9C69500DE17D8 /* EmotionScreener.swift in Sources */,
+				A2B0088A2BD9C56600DE17D8 /* ExerciseViewModel.swift in Sources */,
+				A2B008962BD9C69500DE17D8 /* DeepBreatheView.swift in Sources */,
 				A24142BF2BD99C360090AA2D /* ModelEmotions.xcdatamodeld in Sources */,
 				A280AFF62BD554960013E0E7 /* FinalProjApp.swift in Sources */,
-				A2942FB92BD9967E006DDEA2 /* CountdownView.swift in Sources */,
-				A2942FBD2BD996B6006DDEA2 /* Exercise.swift in Sources */,
-				A2942FBB2BD996A8006DDEA2 /* ExerciseViewModel.swift in Sources */,
+				A2B008922BD9C69500DE17D8 /* ExerciseView.swift in Sources */,
 				A280B0252BD56BE30013E0E7 /* Emotions.swift in Sources */,
-				A2942FB72BD99662006DDEA2 /* ExerciseView.swift in Sources */,
-				A2942FB62BD99662006DDEA2 /* DeepBreatheView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,7 @@ struct Home: View {
                         .foregroundStyle(.blue)
                     
                     // Placeholder for exercise statistics
+                    // to do - add exercise stats here 
                     
                     // Mental Health Summary
                     Text("My Mental Health Summary")
@@ -96,6 +97,7 @@ struct Home: View {
                             }
                         }
 
+                    // to do - display number of deep breathing sessions user had
                         
                         // Start Workout Button
                         HStack {
